@@ -5,6 +5,7 @@ import Cybersecurity from "./components/Cybersecurity/Cybersecurity"
 import Navbar from "./components/Navbar/Navbar"
 import Penetration from "./components/Penetration/Penetration"
 import Protection from "./components/Protection/Protection"
+import Steps from "./components/Steps/Steps"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Advantage />
       <Protection />
       <Penetration />
+      <Steps />
     </div>
   )
 }
