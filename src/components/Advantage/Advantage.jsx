@@ -1,15 +1,17 @@
 import { FiLock } from "react-icons/fi";
+import { GrGroup } from "react-icons/gr";
+import { CgProfile } from "react-icons/cg";
 
 const Advantage = () => {
   return (
-    <div className="bg-[#121111] lg:px-40 px-5 pt-20">
+    <div className="bg-[#121111] lg:px-40 px-5 pt-20 pb-16">
       <h1 className="text-red-100 text-3xl pb-5 font-bold">
         Advantages for Every Security Stakeholder
       </h1>
       <div>
         <div className="lg:flex gap-5 bg-[#2B2626] py-4 px-5 mb-5">
           <div className="text-blue-500 ">
-            <FiLock className="h-20 w-20" />
+            <FiLock className="h-16 w-16" />
           </div>
           <div>
             <h1 className="text-red-100 text-md font-bold pb-2">
@@ -28,7 +30,7 @@ const Advantage = () => {
 
         <div className="flex gap-5 bg-[#2B2626] py-4 px-5 mb-5">
           <div className="text-blue-500 ">
-            <FiLock />
+          <GrGroup className="h-16 w-16" />
           </div>
           <div>
             <h1 className="text-red-100 text-md font-bold pb-2">
@@ -45,9 +47,9 @@ const Advantage = () => {
           </div>
         </div>
 
-        <div className="flex gap-5 bg-[#2B2626] py-4 px-5">
+        <div className="flex gap-5 bg-[#2B2626] py-4 px-5 ">
           <div className="text-blue-500 ">
-            <FiLock />
+          <CgProfile className="h-16 w-16" />
           </div>
           <div>
             <h1 className="text-red-100 text-md font-bold pb-2">
