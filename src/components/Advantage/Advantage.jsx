@@ -28,7 +28,7 @@ const Advantage = () => {
           </div>
         </div>
 
-        <div className="flex gap-5 bg-[#2B2626] py-4 px-5 mb-5">
+        <div className="lg:flex gap-5 bg-[#2B2626] py-4 px-5 mb-5">
           <div className="text-blue-500 ">
           <GrGroup className="h-16 w-16" />
           </div>
@@ -47,7 +47,7 @@ const Advantage = () => {
           </div>
         </div>
 
-        <div className="flex gap-5 bg-[#2B2626] py-4 px-5 ">
+        <div className="lg:flex gap-5 bg-[#2B2626] py-4 px-5 ">
           <div className="text-blue-500 ">
           <CgProfile className="h-16 w-16" />
           </div>
