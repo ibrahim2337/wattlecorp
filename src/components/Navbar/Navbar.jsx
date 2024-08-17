@@ -4,7 +4,7 @@ import { FaRegBookmark } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <div>
-      <div className="relative  shadow bg-black">
+      <div className=" shadow bg-black">
         <div className="container px-14 py-3 mx-auto md:flex">
           <div className="flex items-center justify-between">
             <a href="#">
