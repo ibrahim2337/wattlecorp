@@ -1,5 +1,5 @@
 
-const Protection = () => {
+const Touch = () => {
     return (
         <div>
             
@@ -7,4 +7,4 @@ const Protection = () => {
     );
 };
 
-export default Protection;
+export default Touch;

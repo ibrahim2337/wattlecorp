@@ -1,5 +1,6 @@
 
-const Protection = () => {
+
+const Recommended = () => {
     return (
         <div>
             
@@ -7,4 +8,4 @@ const Protection = () => {
     );
 };
 
-export default Protection;
+export default Recommended;
