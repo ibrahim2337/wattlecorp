@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar/Navbar"
 import Penetration from "./components/Penetration/Penetration"
 import Protection from "./components/Protection/Protection"
 import Steps from "./components/Steps/Steps"
+import Touch from "./components/Touch/Touch"
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Steps />
       <Explore />
       <Faq />
+      <Touch />
     </div>
   )
 }
