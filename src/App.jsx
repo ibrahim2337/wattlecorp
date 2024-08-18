@@ -3,6 +3,7 @@ import Banner from "./components/Banner/Banner"
 import Benefits from "./components/Benefits/Benefits"
 import Cybersecurity from "./components/Cybersecurity/Cybersecurity"
 import Explore from "./components/Explore/Explore"
+import Faq from "./components/Faq/Faq"
 import Navbar from "./components/Navbar/Navbar"
 import Penetration from "./components/Penetration/Penetration"
 import Protection from "./components/Protection/Protection"
@@ -23,6 +24,7 @@ function App() {
       <Penetration />
       <Steps />
       <Explore />
+      <Faq />
     </div>
   )
 }
