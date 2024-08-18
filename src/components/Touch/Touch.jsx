@@ -1,7 +1,7 @@
 const Touch = () => {
   return (
     <div>
-      <section className=" bg-[#202020] py-20 ">
+      <section className=" bg-[#202020]  py-20 ">
         <div className="text-center px-5">
           <h3 className="text-[#5C20EF] font-bold uppercase">
             ---- One more step ----
@@ -15,7 +15,7 @@ const Touch = () => {
         </div>
 
         <div className="flex flex-col justify-center w-full mt-10 lg:px-64 px-5">
-          <form className="lg:px-10 px-5 bg-[#252525] py-10">
+          <form className="lg:px-10 px-5 bg-[#252525] shadow-xl shadow-black py-10">
             <div className="w-full">
               <textarea
                 className=" w-full h-20 px-5 py-3 mt-2 text-sm font-bold bg-[#202020] border-l-2 text-red-100 placeholder-[#5F5A59] "
