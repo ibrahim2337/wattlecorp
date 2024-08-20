@@ -1,4 +1,5 @@
 import Advantage from "./components/Advantage/Advantage"
+import Articles from "./components/Articles/Articles"
 import Banner from "./components/Banner/Banner"
 import Benefits from "./components/Benefits/Benefits"
 import Cybersecurity from "./components/Cybersecurity/Cybersecurity"
@@ -27,6 +28,7 @@ function App() {
       <Explore />
       <Faq />
       <Touch />
+      <Articles />
     </div>
   )
 }
