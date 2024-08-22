@@ -3,9 +3,9 @@ import img1 from "../../assets/background/Screenshot 2024-08-17 200540.png";
 const Cybersecurity = () => {
   return (
     <div className="bg-[#121111] pt-20">
-      <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-5 lg:mx-40 mx-5">
+      <div className="grid lg:grid-cols-2  gap-5 lg:mx-40 mx-5">
         <div>
-          <img src={img1} className="h-[480px]" alt="" />
+          <img src={img1} className="h-[480px] w-full" alt="" />
         </div>
         <div>
           <h1 className="text-4xl font-extrabold text-red-100">Cybersecurity Penetration Testing Services in UAE</h1>

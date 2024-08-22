@@ -1,4 +1,4 @@
-import protectionImg from "../../assets/protuction/protuction.svg"
+import { FaRobot } from "react-icons/fa6";
 
 const Protection = () => {
   return (
@@ -12,94 +12,148 @@ const Protection = () => {
       </div>
       <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-5 lg:px-40 mt-20 px-5">
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
-          <div className="">
-          <img src={protectionImg} className="h-12 w-auto text-[#D83E27]" alt="" />
+          <div>
+            <FaRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
-          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">Web application security assessment</h1>
-          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">Analysing all the corners of a web application to ensure safety.</p>
+          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
+            Web application security assessment
+          </h1>
+          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">
+            Analysing all the corners of a web application to ensure safety.
+          </p>
         </div>
 
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
-          <div className="">
-          <img src={protectionImg} className="h-12 w-auto text-[#D83E27]" alt="" />
+          <div>
+            <FaRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
-          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">Web application security assessment</h1>
-          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">Analysing all the corners of a web application to ensure safety.</p>
+          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
+            Web application security assessment
+          </h1>
+          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">
+            Analysing all the corners of a web application to ensure safety.
+          </p>
         </div>
 
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
-          <div className="">
-          <img src={protectionImg} className="h-12 w-auto text-[#D83E27]" alt="" />
+          <div>
+            <FaRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
-          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">Web application security assessment</h1>
-          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">Analysing all the corners of a web application to ensure safety.</p>
+          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
+            Web application security assessment
+          </h1>
+          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">
+            Analysing all the corners of a web application to ensure safety.
+          </p>
         </div>
 
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
-          <div className="">
-          <img src={protectionImg} className="h-12 w-auto text-[#D83E27]" alt="" />
+          <div>
+            <FaRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
-          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">Web application security assessment</h1>
-          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">Analysing all the corners of a web application to ensure safety.</p>
+          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
+            Web application security assessment
+          </h1>
+          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">
+            Analysing all the corners of a web application to ensure safety.
+          </p>
         </div>
 
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
-          <div className="">
-          <img src={protectionImg} className="h-12 w-auto text-[#D83E27]" alt="" />
+          <div>
+            <FaRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
-          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">Web application security assessment</h1>
-          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">Analysing all the corners of a web application to ensure safety.</p>
-        </div>
-        <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
-          <div className="">
-          <img src={protectionImg} className="h-12 w-auto text-[#D83E27]" alt="" />
-          </div>
-          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">Web application security assessment</h1>
-          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">Analysing all the corners of a web application to ensure safety.</p>
-        </div>
-        <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
-          <div className="">
-          <img src={protectionImg} className="h-12 w-auto text-[#D83E27]" alt="" />
-          </div>
-          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">Web application security assessment</h1>
-          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">Analysing all the corners of a web application to ensure safety.</p>
-        </div>
-        <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
-          <div className="">
-          <img src={protectionImg} className="h-12 w-auto text-[#D83E27]" alt="" />
-          </div>
-          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">Web application security assessment</h1>
-          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">Analysing all the corners of a web application to ensure safety.</p>
-        </div>
-        <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
-          <div className="">
-          <img src={protectionImg} className="h-12 w-auto text-[#D83E27]" alt="" />
-          </div>
-          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">Web application security assessment</h1>
-          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">Analysing all the corners of a web application to ensure safety.</p>
-        </div>
-        <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
-          <div className="">
-          <img src={protectionImg} className="h-12 w-auto text-[#D83E27]" alt="" />
-          </div>
-          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">Web application security assessment</h1>
-          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">Analysing all the corners of a web application to ensure safety.</p>
-        </div>
-        <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
-          <div className="">
-          <img src={protectionImg} className="h-12 w-auto text-[#D83E27]" alt="" />
-          </div>
-          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">Web application security assessment</h1>
-          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">Analysing all the corners of a web application to ensure safety.</p>
-        </div>
-        <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
-          <div className="">
-          <img src={protectionImg} className="h-12 w-auto text-[#D83E27]" alt="" />
-          </div>
-          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">Web application security assessment</h1>
-          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">Analysing all the corners of a web application to ensure safety.</p>
+          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
+            Web application security assessment
+          </h1>
+          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">
+            Analysing all the corners of a web application to ensure safety.
+          </p>
         </div>
 
+        <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
+          <div>
+            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+          </div>
+          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
+            Web application security assessment
+          </h1>
+          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">
+            Analysing all the corners of a web application to ensure safety.
+          </p>
+        </div>
+
+        <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
+          <div>
+            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+          </div>
+          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
+            Web application security assessment
+          </h1>
+          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">
+            Analysing all the corners of a web application to ensure safety.
+          </p>
+        </div>
+
+        <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
+          <div>
+            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+          </div>
+          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
+            Web application security assessment
+          </h1>
+          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">
+            Analysing all the corners of a web application to ensure safety.
+          </p>
+        </div>
+
+        <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
+          <div>
+            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+          </div>
+          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
+            Web application security assessment
+          </h1>
+          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">
+            Analysing all the corners of a web application to ensure safety.
+          </p>
+        </div>
+
+        <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
+          <div>
+            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+          </div>
+          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
+            Web application security assessment
+          </h1>
+          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">
+            Analysing all the corners of a web application to ensure safety.
+          </p>
+        </div>
+
+        <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
+          <div>
+            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+          </div>
+          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
+            Web application security assessment
+          </h1>
+          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">
+            Analysing all the corners of a web application to ensure safety.
+          </p>
+        </div>
+
+        <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
+          <div>
+            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+          </div>
+          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
+            Web application security assessment
+          </h1>
+          <p className="pt-3 text-sm font-bold text-[#C3B5B3]">
+            Analysing all the corners of a web application to ensure safety.
+          </p>
+        </div>
       </div>
     </div>
   );
