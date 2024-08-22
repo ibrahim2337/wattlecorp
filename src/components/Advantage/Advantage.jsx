@@ -8,7 +8,7 @@ const Advantage = () => {
       <h1 className="text-red-100 text-3xl pb-5 font-bold">
         Advantages for Every Security Stakeholder
       </h1>
-      <div>
+      <div className="">
         <div className="lg:flex gap-5 bg-[#2B2626] py-4 px-5 mb-5">
           <div className="text-blue-500 ">
             <FiLock className="h-16 w-16" />

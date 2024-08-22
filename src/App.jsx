@@ -8,6 +8,7 @@ import Faq from "./components/Faq/Faq"
 import Navbar from "./components/Navbar/Navbar"
 import Penetration from "./components/Penetration/Penetration"
 import Protection from "./components/Protection/Protection"
+import Recommended from "./components/Recommended/Recommended"
 import Steps from "./components/Steps/Steps"
 import Touch from "./components/Touch/Touch"
 
@@ -28,6 +29,7 @@ function App() {
       <Explore />
       <Faq />
       <Touch />
+      <Recommended />
       <Articles />
     </div>
   )

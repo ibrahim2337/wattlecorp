@@ -10,7 +10,7 @@ const Protection = () => {
           No more space for black-hat hackers.
         </p>
       </div>
-      <div className="grid lg:grid-cols-4 gap-5 lg:px-40 mt-20 px-5">
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-5 lg:px-40 mt-20 px-5">
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
           <div className="">
           <img src={protectionImg} className="h-12 w-auto text-[#D83E27]" alt="" />
