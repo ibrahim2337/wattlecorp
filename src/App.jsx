@@ -6,6 +6,7 @@ import Cybersecurity from "./components/Cybersecurity/Cybersecurity"
 import Explore from "./components/Explore/Explore"
 import Faq from "./components/Faq/Faq"
 import Navbar from "./components/Navbar/Navbar"
+import News from "./components/News/News"
 import Penetration from "./components/Penetration/Penetration"
 import Protection from "./components/Protection/Protection"
 import Recommended from "./components/Recommended/Recommended"
@@ -22,6 +23,7 @@ function App() {
       <Banner />
       <Cybersecurity />
       <Benefits />
+      <News />
       <Advantage />
       <Protection />
       <Penetration />

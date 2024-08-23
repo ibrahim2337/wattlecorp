@@ -1,4 +1,5 @@
-import { FaRobot } from "react-icons/fa6";
+import { GiVintageRobot } from "react-icons/gi";
+
 
 const Protection = () => {
   return (
@@ -13,7 +14,7 @@ const Protection = () => {
       <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-5 lg:px-40 mt-20 px-5">
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
           <div>
-            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+            <GiVintageRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
           <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
             Web application security assessment
@@ -25,7 +26,7 @@ const Protection = () => {
 
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
           <div>
-            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+            <GiVintageRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
           <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
             Web application security assessment
@@ -37,7 +38,7 @@ const Protection = () => {
 
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
           <div>
-            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+            <GiVintageRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
           <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
             Web application security assessment
@@ -49,7 +50,7 @@ const Protection = () => {
 
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
           <div>
-            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+            <GiVintageRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
           <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
             Web application security assessment
@@ -61,7 +62,7 @@ const Protection = () => {
 
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
           <div>
-            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+            <GiVintageRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
           <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
             Web application security assessment
@@ -73,7 +74,7 @@ const Protection = () => {
 
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
           <div>
-            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+            <GiVintageRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
           <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
             Web application security assessment
@@ -85,7 +86,7 @@ const Protection = () => {
 
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
           <div>
-            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+            <GiVintageRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
           <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
             Web application security assessment
@@ -97,7 +98,7 @@ const Protection = () => {
 
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
           <div>
-            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+            <GiVintageRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
           <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
             Web application security assessment
@@ -109,7 +110,7 @@ const Protection = () => {
 
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
           <div>
-            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+            <GiVintageRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
           <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
             Web application security assessment
@@ -121,7 +122,7 @@ const Protection = () => {
 
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
           <div>
-            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+            <GiVintageRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
           <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
             Web application security assessment
@@ -133,7 +134,7 @@ const Protection = () => {
 
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
           <div>
-            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+            <GiVintageRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
           <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
             Web application security assessment
@@ -145,7 +146,7 @@ const Protection = () => {
 
         <div className="border p-5 bg-[#FDE8E5] hover:bg-white">
           <div>
-            <FaRobot className="h-10 w-10 text-[#D83E27]" />
+            <GiVintageRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
           <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
             Web application security assessment
