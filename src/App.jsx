@@ -10,6 +10,7 @@ import News from "./components/News/News"
 import Penetration from "./components/Penetration/Penetration"
 import Protection from "./components/Protection/Protection"
 import Recommended from "./components/Recommended/Recommended"
+import Request from "./components/Request/Request"
 import Steps from "./components/Steps/Steps"
 import Touch from "./components/Touch/Touch"
 
@@ -33,6 +34,7 @@ function App() {
       <Touch />
       <Recommended />
       <Articles />
+      <Request />
     </div>
   )
 }
