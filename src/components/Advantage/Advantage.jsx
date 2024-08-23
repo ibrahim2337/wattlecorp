@@ -4,20 +4,20 @@ import { CgProfile } from "react-icons/cg";
 
 const Advantage = () => {
   return (
-    <div className="bg-[#121111] lg:px-40 px-5 pt-20 pb-16">
+    <div className="bg-[#121111] lg:px-40 px-5 pt-28 pb-16">
       <h1 className="text-red-100 text-3xl pb-5 font-bold">
         Advantages for Every Security Stakeholder
       </h1>
       <div className="">
         <div className="lg:flex gap-5 bg-[#2B2626] py-4 px-5 mb-5">
-          <div className="text-blue-500 ">
+          <div className="text-[#5C20EF] ">
             <FiLock className="h-16 w-16" />
           </div>
           <div>
             <h1 className="text-red-100 text-md font-bold pb-2">
               Chief Information Security Officer and Information Security Team
             </h1>
-            <p className="text-red-100 text-sm">
+            <p className="text-[#726c6c] text-sm">
               Effortlessly manage risks, streamline compliance, and accelerate
               app delivery. Foster team collaboration, reduce testing costs
               without compromising quality and take charge of your testing
@@ -29,14 +29,14 @@ const Advantage = () => {
         </div>
 
         <div className="lg:flex gap-5 bg-[#2B2626] py-4 px-5 mb-5">
-          <div className="text-blue-500 ">
+          <div className="text-[#5C20EF]">
           <GrGroup className="h-16 w-16" />
           </div>
           <div>
             <h1 className="text-red-100 text-md font-bold pb-2">
               Chief Technology Officer And Product Development Team
             </h1>
-            <p className="text-red-100 text-sm">
+            <p className="text-[#726c6c] text-sm">
               Early release detection and fix for security vulnerabilities,
               faster remediation, improve application delivery agility, managed
               risk-based approach to security, easy collaboration with security
@@ -48,14 +48,14 @@ const Advantage = () => {
         </div>
 
         <div className="lg:flex gap-5 bg-[#2B2626] py-4 px-5 ">
-          <div className="text-blue-500 ">
+          <div className="text-[#5C20EF] ">
           <CgProfile className="h-16 w-16" />
           </div>
           <div>
             <h1 className="text-red-100 text-md font-bold pb-2">
               Chief Executive Office And Business Management
             </h1>
-            <p className="text-red-100 text-sm">
+            <p className="text-[#726c6c] text-sm">
               Ensure Compliance to frequently changing regulatory landscape
               without cost overruns, protect brand reputation, predictable cost
               and simple billing, reduced administrative overheads.
