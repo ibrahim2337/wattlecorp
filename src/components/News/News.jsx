@@ -3,7 +3,7 @@ import { FiLock } from "react-icons/fi";
 const News = () => {
   return (
     <div className="bg-[#121111] lg:px-40 px-5 pt-20">
-      <div className="grid lg:grid-cols-4 gap-5 items-center justify-center">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5 items-center justify-center">
         <div className=" bg-[#2B2626] p-5 text-center">
           <div className="text-[#5C20EF] flex justify-center ">
             <FiLock className="h-16 w-16" />
