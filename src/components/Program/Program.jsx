@@ -13,64 +13,64 @@ const Program = () => {
             Why choose the Penetration testing program from Wattlecorp ?
           </h3>
           <div className="flex lg:gap-1 gap-2 py-2 items-center">
-            <IoLockOpenOutline className="text-white hover:text-[#9F3121]" />
+            <IoLockOpenOutline className="hover:text-white text-[#9F3121]" />
             <h4 className="text-sm font-bold text-white">
               Deliver highly secure applications and reduce the cost of
               compliance
             </h4>
           </div>
           <div className="flex lg:gap-1 gap-2 py-2 items-center">
-            <IoLockOpenOutline className="text-white hover:text-[#9F3121]" />
+            <IoLockOpenOutline className="hover:text-white text-[#9F3121]" />
             <h4 className="text-sm font-bold text-white">
               Remove Complexities with vulnerability management and patch fixing
             </h4>
           </div>
           <div className="flex lg:gap-1 gap-2 py-2 items-center">
-            <IoLockOpenOutline className="text-white hover:text-[#9F3121]" />
+            <IoLockOpenOutline className="hover:text-white text-[#9F3121]" />
             <h4 className="text-sm font-bold text-white">
               Find business and logic flows that are not detected by automated
               testing.
             </h4>
           </div>
           <div className="flex lg:gap-1 gap-2 py-2 items-center">
-            <IoLockOpenOutline className="text-white hover:text-[#9F3121]" />
+            <IoLockOpenOutline className="hover:text-white text-[#9F3121]" />
             <h4 className="text-sm font-bold text-white">
               Secure applications from leaking sensitive customer data
             </h4>
           </div>
           <div className="flex lg:gap-1 gap-2 py-2 items-center">
-            <IoLockOpenOutline className="text-white hover:text-[#9F3121]" />
+            <IoLockOpenOutline className="hover:text-white text-[#9F3121]" />
             <h4 className="text-sm font-bold text-white">
               Identify network misconfiguration and vulnerabilities
             </h4>
           </div>
           <div className="flex lg:gap-1 gap-2 py-2 items-center">
-            <IoLockOpenOutline className="text-white hover:text-[#9F3121]" />
+            <IoLockOpenOutline className="hover:text-white text-[#9F3121]" />
             <h4 className="text-sm font-bold text-white">
               Reduce the cost of compliance and continuous security monitoring
             </h4>
           </div>
           <div className="flex lg:gap-1 gap-2 py-2 items-center">
-            <IoLockOpenOutline className="text-white hover:text-[#9F3121]" />
+            <IoLockOpenOutline className="hover:text-white text-[#9F3121]" />
             <h4 className="text-sm font-bold text-white">
               Reduce time to find and fix security vulnerabilities
             </h4>
           </div>
           <div className="flex lg:gap-1 gap-2 py-2 items-center">
-            <IoLockOpenOutline className="text-white hover:text-[#9F3121]" />
+            <IoLockOpenOutline className="hover:text-white text-[#9F3121]" />
             <h4 className="text-sm font-bold text-white">
               Improve speed and quality of delivering secure code by developers
             </h4>
           </div>
           <div className="flex lg:gap-1 gap-2 py-2 items-center">
-            <IoLockOpenOutline className="text-white hover:text-[#9F3121]" />
+            <IoLockOpenOutline className="hover:text-white text-[#9F3121]" />
             <h4 className="text-sm font-bold text-white">
               Exclusive dashboards to monitor the progress of applications
               security
             </h4>
           </div>
           <div className="flex lg:gap-1 gap-2 py-2 items-center">
-            <IoLockOpenOutline className="text-white hover:text-[#9F3121]" />
+            <IoLockOpenOutline className="hover:text-white text-[#9F3121]" />
             <h4 className="text-sm font-bold text-white">
             Use cybersecurity as a business advantage
             </h4>
