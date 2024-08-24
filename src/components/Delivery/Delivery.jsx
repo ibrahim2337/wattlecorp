@@ -2,7 +2,7 @@
 
 const Delivery = () => {
     return (
-        <div>
+        <div className="bg-[#121111]">
             
         </div>
     );
