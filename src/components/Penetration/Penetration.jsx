@@ -16,7 +16,7 @@ const Penetration = () => {
         <div>
             <FaRobot className="h-10 w-10 text-[#D83E27]" />
           </div>
-          <h1 className="pt-5 text-lg font-bold text-[#2F2A2A]">
+          <h1 className="pt-5 text-lg font-bold text-[#2f2a2a]">
             OWASP Top ten
           </h1>
           <p className="pt-3 text-sm font-bold text-[#C3B5B3]">

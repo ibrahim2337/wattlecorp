@@ -7,7 +7,7 @@ const Explore = () => {
           <button className="text-white uppercase font-bold px-6 py-1 border-l-4 border-l-[#D83E27] bg-blue-600 hover:bg-[#D83E27] hover:border-l-blue-600 mt-5">Learn more</button>
         </div>
         <div>
-          <p className="text-white text-sm font-bold">
+          <p className="text-white text-sm font-bold text-justify">
             Learn more Our Penetration Testing Service relies on in-depth
             advanced security testing methodology, analyzes the inner workings
             of your applications and network configurations, and identifies
