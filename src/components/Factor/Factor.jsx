@@ -1,4 +1,4 @@
-import factorImg from "../../assets/protuction/factor.png"
+import factorImg from "../../assets/factor/factor.png"
 
 const Factor = () => {
     return (

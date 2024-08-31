@@ -1,7 +1,7 @@
 import './Banner.css'
 const Banner = () => {
   return (
-    <div className="image pt-28">
+    <div className="image py-8">
         <div className="text-center items-center lg:mx-96 mx-5 ">
       <h1 className="text-white lg:text-4xl text-2xl font-extrabold">
         Penetration Testing Company In  UAE

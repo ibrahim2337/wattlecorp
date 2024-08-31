@@ -1,4 +1,4 @@
-import img from "../../assets/protuction/Screenshot_2024-08-23_214318-removebg-preview.png";
+import img from "../../assets/factor/Screenshot_2024-08-23_214318-removebg-preview.png";
 import { IoLockOpenOutline } from "react-icons/io5";
 
 const Program = () => {

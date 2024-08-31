@@ -1,9 +1,8 @@
 import { GiVintageRobot } from "react-icons/gi";
 
-
-const Protection = () => {
-  return (
-    <div className="bg-[#D83E27] py-20">
+const Assessment = () => {
+    return (
+        <div className="bg-[#D83E27] py-20">
       <div className="text-center ">
         <h3 className="text-white font-bold">---- VAPT SERVICE ----</h3>
         <h1 className="text-white text-4xl font-bold my-6">360° PROTECTION</h1>
@@ -157,7 +156,7 @@ const Protection = () => {
         </div>
       </div>
     </div>
-  );
+    );
 };
 
-export default Protection;
+export default Assessment;

@@ -1,5 +1,6 @@
 import Advantage from "./components/Advantage/Advantage";
 import Articles from "./components/Articles/Articles";
+import Assessment from "./components/Assessment/Assessment";
 import Banner from "./components/Banner/Banner";
 import Benefits from "./components/Benefits/Benefits";
 import Budget from "./components/Budget/Budget";
@@ -7,11 +8,11 @@ import Cybersecurity from "./components/Cybersecurity/Cybersecurity";
 import Explore from "./components/Explore/Explore";
 import Factor from "./components/Factor/Factor";
 import Faq from "./components/Faq/Faq";
+import Listen from "./components/Listen/Listen";
 import Navbar from "./components/Navbar/Navbar";
 import News from "./components/News/News";
 import Penetration from "./components/Penetration/Penetration";
 import Program from "./components/Program/Program";
-import Protection from "./components/Protection/Protection";
 import Recommended from "./components/Recommended/Recommended";
 import Request from "./components/Request/Request";
 import Steps from "./components/Steps/Steps";
@@ -26,13 +27,14 @@ function App() {
       <Benefits />
       <News />
       <Advantage />
-      <Protection />
+      <Assessment />
       <Penetration />
       <Steps />
       <Explore />
       <Program />
       <Budget />
       <Factor />
+      <Listen />
       <Faq />
       <Touch />
       <Recommended />
