@@ -3,6 +3,7 @@ import Articles from "./components/Articles/Articles";
 import Assessment from "./components/Assessment/Assessment";
 import Banner from "./components/Banner/Banner";
 import Benefits from "./components/Benefits/Benefits";
+import Bespoke from "./components/Bespoke/Bespoke";
 import Budget from "./components/Budget/Budget";
 import Cybersecurity from "./components/Cybersecurity/Cybersecurity";
 import Explore from "./components/Explore/Explore";
@@ -34,6 +35,7 @@ function App() {
       <Program />
       <Budget />
       <Factor />
+      <Bespoke />
       <Listen />
       <Faq />
       <Touch />
