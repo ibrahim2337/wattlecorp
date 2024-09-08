@@ -2,7 +2,7 @@ import { GiVintageRobot } from "react-icons/gi";
 
 const Assessment = () => {
     return (
-        <div className="bg-[#D83E27] py-20">
+        <div className="bg-[#D83E27] py-10">
       <div className="text-center ">
         <h3 className="text-white font-bold">---- VAPT SERVICE ----</h3>
         <h1 className="text-white text-4xl font-bold my-6">360° PROTECTION</h1>
