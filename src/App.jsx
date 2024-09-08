@@ -6,6 +6,7 @@ import Benefits from "./components/Benefits/Benefits";
 import Bespoke from "./components/Bespoke/Bespoke";
 import Budget from "./components/Budget/Budget";
 import Cybersecurity from "./components/Cybersecurity/Cybersecurity";
+import Delivery from "./components/Delivery/Delivery";
 import Explore from "./components/Explore/Explore";
 import Factor from "./components/Factor/Factor";
 import Faq from "./components/Faq/Faq";
@@ -33,7 +34,7 @@ function App() {
       <Penetration />
       <Steps />
       <Explore />
-      
+      <Delivery />
       <Program />
       <Budget />
       <Factor />
