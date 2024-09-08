@@ -1,97 +1,248 @@
 import { CiLocationOn } from "react-icons/ci";
+import { FaFacebook } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa6";
+import footerImg from "../../assets/footer/Screenshot 2024-09-08 135355.png"
+
 const Footer = () => {
   return (
-    <footer className="bg-[#121111] py-20">
+    <footer className="bg-[#121111] py-10">
       <div className="lg:ps-80 lg:pe-40 px-5">
         <div className="lg:flex">
           <div className="mt-6 lg:mt-0 lg:flex-1">
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div className="grid grid-cols-2 gap-6 md:grid-cols-4 lg:grid-cols-4">
               <div>
-                <h3 className="text-gray-700 uppercase dark:text-white">
-                  Links
-                </h3>
-                <a
-                  href="#"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                >
-                  Company
-                </a>
-                <a
-                  href="#"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                >
-                  community
-                </a>
-                <a
-                  href="#"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                >
-                  Careers
-                </a>
+                <div>
+                  <h3 className="text-red-100 font-bold text-lg pb-5">Links</h3>
+                  <a
+                    href="#"
+                    className="block text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                  >
+                    Blog
+                  </a>
+                  <a
+                    href="#"
+                    className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                  >
+                    FAQs
+                  </a>
+                  <a
+                    href="#"
+                    className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                  >
+                    Terms
+                  </a>
+                  <a
+                    href="#"
+                    className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                  >
+                    Sitemap
+                  </a>
+                  <a
+                    href="#"
+                    className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                  >
+                    Privacy Policy
+                  </a>
+                </div>
+                <div>
+                  <h3 className="text-red-100 font-bold text-lg my-5">
+                    Products
+                  </h3>
+                  <a
+                    href="#"
+                    className="block text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                  >
+                    Wattlecorp Security Suite
+                  </a>
+                  <a
+                    href="#"
+                    className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                  >
+                    Wattlefort
+                  </a>
+                </div>
               </div>
 
               <div>
-                <h3 className="text-gray-700 uppercase dark:text-white">
+                <h3 className="text-red-100 font-bold text-lg mb-5">
                   Services
                 </h3>
                 <a
                   href="#"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                  className="block text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
                 >
-                  Tec
+                  Cloud Security
                 </a>
                 <a
                   href="#"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
                 >
-                  Music
+                  E-commerce Security
                 </a>
                 <a
                   href="#"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
                 >
-                  Videos
+                  Email Security
+                </a>
+                <a
+                  href="#"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                >
+                  ERP Security
+                </a>
+                <a
+                  href="#"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                >
+                  Firewall Security
+                </a>
+                <a
+                  href="#"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                >
+                  ICS Security
+                </a>
+                <a
+                  href="#"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                >
+                  OT Threat Hunting
+                </a>
+                <a
+                  href="#"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                >
+                  Pro Active Threat Hunting
+                </a>
+                <a
+                  href="#"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                >
+                  Security Architecture Review
+                </a>
+                <a
+                  href="#"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                >
+                  Secure Source Code Review
+                </a>
+                <a
+                  href="#"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                >
+                  Virtual CISO Consulting
+                </a>
+                <a
+                  href="#"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                >
+                  Office 365 Security g
+                </a>
+                <a
+                  href="#"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                >
+                  Azure cloud Hardening
                 </a>
               </div>
 
               <div>
-                <h3 className="text-gray-700 uppercase dark:text-white">
+                <h3 className="text-red-100 font-bold text-lg mb-5">
                   Global Locations
                 </h3>
                 <a
                   href="#"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                  className="block text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
                 >
-                  Mega cloud
+                  US
                 </a>
                 <a
                   href="#"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
                 >
-                  Aperion UI
+                  UK
                 </a>
                 <a
                   href="#"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
                 >
-                  Meraki UI
+                  India
+                </a>
+                <a
+                  href="#"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                >
+                  Saudi Arabia
+                </a>
+                <a
+                  href="#"
+                  className="block mt-1 text-sm text-[#8A8281] hover:text-[#DA3B23] hover:underline"
+                >
+                  Singapore
                 </a>
               </div>
 
               <div>
-                <h3 className="text-gray-700 uppercase dark:text-white">
-                  Social
-                </h3>
-                <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  +1 526 654 8965
-                </span>
-                <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  example@email.com
-                </span>
+              <div>
+                <h3 className="text-red-100 font-bold text-lg mb-5">Social</h3>
+                <div className="flex gap-1 items-center hover:underline">
+                  <FaFacebook className="text-[#8A8281] hover:text-[#DA3B23] h-3 w-3" />
+                  <a
+                    href="#"
+                    className="block text-sm text-[#8A8281] hover:text-[#DA3B23]"
+                  >
+                    Facebook
+                  </a>
+                </div>
+                <div className="flex gap-1  mt-1 items-center hover:underline">
+                  <FaInstagram className="text-[#8A8281] hover:text-[#DA3B23] h-3 w-3" />
+                  <a
+                    href="#"
+                    className="block text-sm text-[#8A8281] hover:text-[#DA3B23]"
+                  >
+                    Instagram
+                  </a>
+                </div>
+                <div className="flex gap-1  mt-1 items-center hover:underline">
+                  <FaTwitter className="text-[#8A8281] hover:text-[#DA3B23] h-3 w-3" />
+                  <a
+                    href="#"
+                    className="block text-sm text-[#8A8281] hover:text-[#DA3B23]"
+                  >
+                    Twitter
+                  </a>
+                </div>
+                <div className="flex gap-1  mt-1 items-center hover:underline">
+                  <FaLinkedin className="text-[#8A8281] hover:text-[#DA3B23] h-3 w-3" />
+                  <a
+                    href="#"
+                    className="block text-sm text-[#8A8281] hover:text-[#DA3B23]"
+                  >
+                    Linkedin
+                  </a>
+                </div>
+                <div className="flex gap-1  mt-1 items-center hover:underline">
+                  <FaYoutube className="text-[#8A8281] hover:text-[#DA3B23] h-3 w-3" />
+                  <a
+                    href="#"
+                    className="block text-sm text-[#8A8281] hover:text-[#DA3B23]"
+                  >
+                    Youtube
+                  </a>
+                </div>
+              </div>
+              <div className="mt-5">
+                <img src={footerImg} alt="" />
+              </div>
               </div>
             </div>
           </div>
         </div>
+
         <div className="grid lg:grid-cols-5 grid-cols-2 gap-5 justify-between border border-[#8A8281] py-5 px-5 mt-10">
           <div className="flex  gap-1 items-center">
             <div>
@@ -142,9 +293,15 @@ const Footer = () => {
               <p className="text-[#8A8281] text-xs font-bold">+971 42541674</p>
             </div>
           </div>
-          
         </div>
-        <div></div>
+        <div className="grid lg:grid-cols-2 md:grid-cols-2 pt-5 text-center">
+          <h4 className="text-[#8A8281] lg:text-start md:text-start text-xs font-semibold">
+            © 2024 All Rights Reserved
+          </h4>
+          <h4 className="text-[#8A8281] lg:text-end md:text-end text-xs font-semibold">
+            Wattlecorp Cyber Risk Management Services LLC
+          </h4>
+        </div>
       </div>
     </footer>
   );
