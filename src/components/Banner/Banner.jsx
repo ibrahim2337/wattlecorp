@@ -14,7 +14,7 @@ const Banner = () => {
         technological landscape with our future-proof penetration testing
         services in UAE.
       </p>
-      <button className="text-white px-5 py-2 my-10  font-bold bg-blue-600 hover:bg-red-600">
+      <button className="text-white px-5 py-2 my-10  font-bold bg-[#5C20EF] hover:bg-red-600">
         SCHEDULE A PEN TEST
       </button>
     </div>

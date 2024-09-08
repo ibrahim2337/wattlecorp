@@ -9,6 +9,7 @@ import Cybersecurity from "./components/Cybersecurity/Cybersecurity";
 import Explore from "./components/Explore/Explore";
 import Factor from "./components/Factor/Factor";
 import Faq from "./components/Faq/Faq";
+import Footer from "./components/Footer/Footer";
 import Listen from "./components/Listen/Listen";
 import Navbar from "./components/Navbar/Navbar";
 import News from "./components/News/News";
@@ -32,6 +33,7 @@ function App() {
       <Penetration />
       <Steps />
       <Explore />
+      
       <Program />
       <Budget />
       <Factor />
@@ -42,6 +44,7 @@ function App() {
       <Recommended />
       <Articles />
       <Request />
+      <Footer />
     </div>
   );
 }

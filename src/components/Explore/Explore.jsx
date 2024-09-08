@@ -4,7 +4,7 @@ const Explore = () => {
       <div className="grid lg:grid-cols-2 gap-5 justify-center items-center">
         <div className=" items-center">
           <h3 className="text-xl font-bold text-white">Explore our strategy for penetration testing.</h3>
-          <button className="text-white uppercase font-bold px-6 py-1 border-l-4 border-l-[#D83E27] bg-blue-600 hover:bg-[#D83E27] hover:border-l-blue-600 mt-5">Learn more</button>
+          <button className="text-white uppercase font-bold px-6 py-1 border-l-4 border-l-[#D83E27] bg-[#5C20EF] hover:bg-[#D83E27] hover:border-l-[#5C20EF] mt-5">Learn more</button>
         </div>
         <div>
           <p className="text-white text-sm font-bold ">

@@ -58,7 +58,7 @@ const Navbar = () => {
               </a>
             </div>
 
-            <div className="flex gap-2 items-center border border-l-4 border-red-600 hover:border-blue-600 px-5 py-2">
+            <div className="flex gap-2 items-center border border-l-4 border-red-600 hover:border-[#5C20EF] px-5 py-2">
               <div>
               <button className="text-white uppercase ">
                 Book Now
