@@ -8,7 +8,7 @@ import footerImg from "../../assets/footer/Screenshot 2024-09-08 135355.png"
 
 const Footer = () => {
   return (
-    <footer className="bg-[#121111] py-10">
+    <div className="bg-[#121111] py-10">
       <div className="lg:ps-80 lg:pe-40 px-5">
         <div className="lg:flex">
           <div className="mt-6 lg:mt-0 lg:flex-1">
@@ -303,7 +303,7 @@ const Footer = () => {
           </h4>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/logo/Screenshot_2024-08-17_164423-removebg-preview.png";
 import { FaRegBookmark } from "react-icons/fa6";
 
@@ -7,9 +8,9 @@ const Navbar = () => {
       <div className=" shadow bg-black">
         <div className="container px-14 py-3 mx-auto md:flex">
           <div className="flex items-center justify-between">
-            <a href="#">
+            <Link href="#">
               <img className="w-24 h-20" src={logo} alt="" />
-            </a>
+            </Link>
           </div>
 
           <div className="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out  bg-black md:mt-0 md:p-0 md:top-0 md:relative md:opacity-100 md:translate-x-0 md:flex md:items-center md:justify-between">
@@ -60,18 +61,17 @@ const Navbar = () => {
 
             <div className="flex gap-2 items-center border border-l-4 border-red-600 hover:border-[#5C20EF] px-5 py-2">
               <div>
-              <button className="text-white uppercase ">
-                Book Now
-              </button>
+                <button className="text-white uppercase ">Book Now</button>
               </div>
               <div className="text-white">
-              <FaRegBookmark />
+                <FaRegBookmark />
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
   );
 };
 
