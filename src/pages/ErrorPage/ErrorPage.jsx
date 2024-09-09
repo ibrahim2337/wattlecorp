@@ -4,7 +4,7 @@ import errorImg from "../../assets/error/view-3d-boy-using-laptop-removebg-previ
 
 const ErrorPage = () => {
   return (
-    <div className="grid lg:grid-cols-2 lg:px-20 bg-[#202020] px-5 py-16 justify-center items-center">
+    <div className="grid lg:grid-cols-2 lg:px-20 bg-[#202020] px-5 py-14 justify-center items-center">
       <div>
         <img src={errorImg} alt="" />
       </div>
