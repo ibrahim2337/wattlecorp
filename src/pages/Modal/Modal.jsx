@@ -3,8 +3,8 @@ import "./Modal.css";
 
 const Modal = () => {
   return (
-    <div className="">
-      <div className="grid lg:grid-cols-12 grid-cols-1  bg-black justify-center lg:mx-64 mx-5 my-10 p-5">
+    <div className="bg-[#080101] py-5">
+      <div className="grid lg:grid-cols-12 grid-cols-1  bg-[#202020] justify-center lg:mx-64 mx-5 p-5">
         <div className="lg:col-span-5">
           <button className="text-red-700 bg-slate-500 px-7 py-2 rounded-md my-5">
             Connect Wattlecorp
