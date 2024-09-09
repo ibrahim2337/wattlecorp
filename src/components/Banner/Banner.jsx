@@ -1,3 +1,5 @@
+
+import { Link } from 'react-router-dom';
 import './Banner.css'
 const Banner = () => {
   return (
@@ -14,9 +16,13 @@ const Banner = () => {
         technological landscape with our future-proof penetration testing
         services in UAE.
       </p>
-      <button className="text-white px-5 py-2 my-10  font-bold bg-[#5C20EF] hover:bg-red-600">
+      
+     <Link to ="/modal">
+     <button className="text-white px-5 py-2 my-10  font-bold bg-[#5C20EF] hover:bg-[#D83E27]">
         SCHEDULE A PEN TEST
       </button>
+     </Link>
+      
     </div>
     </div>
   );

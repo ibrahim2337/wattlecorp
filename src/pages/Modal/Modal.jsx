@@ -1,28 +1,24 @@
-const Touch = () => {
-  return (
-    <div>
-      <section className=" bg-[#202020]  py-20 ">
-        <div className="text-center px-5">
-          <h3 className="text-[#5C20EF] font-bold uppercase">
-            ---- One more step ----
-          </h3>
-          <h1 className="text-red-100 text-4xl font-bold my-6">
-            Secure your Data – Get in Touch with us Now!
-          </h1>
-          <p className="text-red-100 text-sm font-bold">
-            All you need to do is fill the form below.
-          </p>
-        </div>
+import { Link } from "react-router-dom";
+import "./Modal.css";
 
-        <div className="flex flex-col justify-center w-full mt-10 lg:px-64 px-5">
-          <form className="lg:px-10 px-5 bg-[#252525] shadow-xl shadow-black py-10">
-            <div className="w-full">
-              <textarea
-                className=" w-full h-20 px-5 py-3 mt-2 text-sm font-bold bg-[#202020] border-l-2 text-red-100 placeholder-[#5F5A59] "
-                placeholder="Message"
-              ></textarea>
-            </div>
-            <div className="-mx-2 mt-1 md:items-center md:flex">
+const Modal = () => {
+  return (
+    <div className="">
+      <div className="grid lg:grid-cols-12 grid-cols-1  bg-black justify-center lg:mx-64 mx-5 my-10 p-5">
+        <div className="lg:col-span-5">
+          <button className="text-red-700 bg-slate-500 px-7 py-2 rounded-md my-5">
+            Connect Wattlecorp
+          </button>
+          <h1 className="text-red-100 text-4xl font-bold">
+            Protecting <br /> your Business
+          </h1>
+          <p className="text-red-100 text-xs mt-6 font-bold">Book a free consultation with us .</p>
+        </div>
+        <div className="lg:col-span-7 px-5 bg-[#252525] py-5">
+          <h3 className="text-red-100 text-2xl font-bold">Enquire Now</h3>
+          <p className="text-red-100 mt-2">Ask our experts.</p>
+          <form className="">
+            <div className=" mt-1 ">
               <div className="flex-1 px-2">
                 <input
                   type="text"
@@ -38,8 +34,7 @@ const Touch = () => {
                   className=" w-full  px-5 py-3 mt-2 text-sm font-bold bg-[#202020] border-l-2 text-red-100 placeholder-[#5F5A59] "
                 />
               </div>
-            </div>
-            <div className="-mx-2 mt-2 md:items-center md:flex">
+
               <div className="flex-1 px-2">
                 <input
                   type="text"
@@ -55,8 +50,7 @@ const Touch = () => {
                   className=" w-full  px-5 py-3 mt-2 text-sm font-bold bg-[#202020] border-l-2 text-red-100 placeholder-[#5F5A59] "
                 />
               </div>
-            </div>
-            <div className="-mx-2 mt-2 md:items-center md:flex">
+
               <div className="flex-1 px-2">
                 <input
                   type="text"
@@ -65,17 +59,29 @@ const Touch = () => {
                 />
               </div>
 
+              <div className="flex-1 px-2">
+                <textarea
+                  className="w-full h-20 px-5 py-3 mt-2 text-sm font-bold bg-[#202020] border-l-2 text-red-100 placeholder-[#5F5A59] "
+                  placeholder="Message"
+                ></textarea>
+              </div>
+
               <div className="flex-1 px-2 mt-4 md:mt-0">
-                <button className=" w-full px-5 py-3 mt-2 text-sm font-bold text-white bg-[#252525] border border-[#5C20EF]">
-                  SEND
+                <button className=" w-full px-5 py-3 mt-2 text-sm font-bold text-white bg-[#252525] border border-[#D83E27] hover:border-[#5C20EF]">
+                  SUBMIT
                 </button>
+               <Link to ='/home'>
+               <button className=" w-full px-5 py-3 mt-2 text-sm font-bold text-white bg-[#252525] border border-[#D83E27] hover:border-[#5C20EF]">
+                  Back to Home
+                </button>
+               </Link>
               </div>
             </div>
           </form>
         </div>
-      </section>
+      </div>
     </div>
   );
 };
 
-export default Touch;
+export default Modal;

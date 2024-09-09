@@ -22,7 +22,7 @@ import Touch from "../../components/Touch/Touch";
 
 const Homepage = () => {
   return (
-    <div>
+    <div className="">
       <Banner />
       <Cybersecurity />
       <Benefits />
